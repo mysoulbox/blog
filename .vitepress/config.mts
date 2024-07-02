@@ -6,7 +6,7 @@ export default defineConfig({
     title: "SOULBOX",
     description: "关注前端技术",
     srcDir: "docs", // 配置md文档的映射目录，默认根路径
-    base: '',// 默认'/blog/'，绑定域名后为空
+    base: '/blog/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
